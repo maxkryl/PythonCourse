@@ -22,4 +22,4 @@ while principal > 0:
         total_paid = total_paid + payment
     i = i + 1
 
-print('Total paid is', round(total_paid, 2), 'over', i-1, 'months')
+print(f'Total paid is {round(total_paid, 2)} over {i-1} months')

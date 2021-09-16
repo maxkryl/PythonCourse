@@ -11,4 +11,4 @@ while principal > 0:
 
     total_paid = total_paid + payment
 
-print('Total paid is', round(total_paid, 2))
+print(f'Total paid is {round(total_paid, 2)}')
